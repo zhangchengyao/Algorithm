@@ -1,14 +1,15 @@
-import java.io.*
+import java.io.*;
 
 class Solution{
 	public static void main(String[] args){
+		Solution solution = new Solution();
 		try{
 			BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 			while(true){
 				String mode = br.readLine();
 				if(mode.equals("-1")) break;
-				int[] input = getInputData('QuickSort.txt');
-				System.out.println(quickSortCountCmp(input, 0, input.length-1, Integer.parseInt(mode)));
+				int[] input = solution.getInputData("QuickSort.txt");
+				System.out.println(solution.quickSortCountCmp(input, 0, input.length-1, Integer.parseInt(mode)));
 			}
 		}catch(IOException e){
 			e.printStackTrace();
@@ -21,11 +22,19 @@ class Solution{
 		int i = left+1;
 		int j = left+1;
 		while(j<=right){
-			
+			if(array[j]<pivot){
+				swap(array, i, j);
+				i++;
+			}
+			j++;
 		}
+		swap(array, left, i-1);
+		count += quickSortCountCmp(array, left, i-2, mode);
+		count += quickSortCountCmp(array, i, right, mode);
+		return count;
 	}
 	int getPivot(int[] array, int left, int right, int mode){
-		int pivot;
+		int pivot = 0;
 		switch(mode){
 			case 1: 
 			pivot = array[left];
@@ -35,12 +44,31 @@ class Solution{
 			swap(array, left, right);
 			break;
 			case 3: 
-			pivot = median3(array, left, right);
-			swap(array, left, (left+right)/2);
+			int index = median3(array, left, right);
+			pivot = array[index];
+			swap(array, left, index);
 			break;
 			default: break;
 		}
 		return pivot;
+	}
+	int median3(int[] array, int left, int right){
+		int middle = (left+right)/2;
+		if(array[left]>array[middle]){
+			if(array[left]<=array[right]){
+				return left;
+			}else{
+				if(array[middle]>array[right]) return middle;
+				else return right;
+			}
+		}else{
+			if(array[middle]<=array[right]){
+				return middle;
+			}else{
+				if(array[right]>array[left]) return right;
+				else return left;
+			}
+		}
 	}
 	void swap(int[] array, int x, int y){
 		int tmp = array[x];
