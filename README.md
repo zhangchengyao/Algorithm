@@ -1,6 +1,11 @@
 # Algorithm
 Intended to study algorithm.
 
+## DivideAndConquer <br>
+*Assignment1* <br>
+
+## RandomizedAlgorithm <br>
+
 ## Graph Search <br>
 *Assignment1* <br><br>
   Computer strongly connected components of a directed graph using Kosaraju's algorithm. <br><br>
