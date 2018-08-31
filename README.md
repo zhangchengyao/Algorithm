@@ -15,3 +15,5 @@ Intended to study algorithm.
 ## Data Structure <br>
 *Assignment3* <br><br>
   Implement the Median Maintenance algorithm. <br><br>
+*Assignment4* <br><br>
+  Implement a variant of the 2-SUM algorithm with hash table. <br><br>
