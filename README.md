@@ -19,6 +19,6 @@ Intended to study Algorithm Specialization on Coursera.
   Implement a variant of the 2-SUM algorithm with hash table. <br><br>
 
 ## Greedy Algorithm <br>
-*Assignment1* <br><br>
+*Assignment1*
 * Run the greedy algorithm that schedules jobs in decreasing order of the difference (weight - length) and (optimally)ratio (weight/length). <br>
 * Run Prim's minimum spanning tree algorithm on an undirected graph. <br>
