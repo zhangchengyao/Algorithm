@@ -2,7 +2,10 @@
 Intended to study Algorithm Specialization on Coursera.
 
 ## DivideAndConquer <br>
-*Assignment1* <br>
+*Assignment1* <br><br>
+  Implement Karatsuba's integer multiplication algorithm. <br><br>
+*Assignment2* <br><br>
+  Implement the fast divide-and-conquer algorithm to compute the number of inversions of the given file. <br><br>
 
 ## RandomizedAlgorithm <br>
 
