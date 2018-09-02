@@ -8,6 +8,10 @@ Intended to study Algorithm Specialization on Coursera.
   Implement the fast divide-and-conquer algorithm to compute the number of inversions of the given file. <br><br>
 
 ## RandomizedAlgorithm <br>
+*Assignment3* <br><br>
+  Compute the total number of comparisons used to sort the given input file by QuickSort. <br><br>
+*Assignment4* <br><br>
+  Run the randomized contraction algorithm to compute minimum cut of a simple undirected graph. <br><br>
 
 ## Graph Search <br>
 *Assignment1* <br><br>
