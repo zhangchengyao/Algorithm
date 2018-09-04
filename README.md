@@ -27,9 +27,8 @@ Intended to study Algorithm Specialization on Coursera.
 
 ## Greedy Algorithm <br>
 *Assignment1*
-* Run the greedy algorithm that schedules jobs in decreasing order of the difference (weight - length) and (optimally)ratio (weight/length). <br>
-* Run Prim's minimum spanning tree algorithm on an undirected graph. <br>
-<br>
+(1)Run the greedy algorithm that schedules jobs in decreasing order of the difference (weight - length) and (optimally)ratio (weight/length). <br>
+(2)Run Prim's minimum spanning tree algorithm on an undirected graph. <br><br>
 *Assignment2*
-* Implement the clustering algorithm for computing a max-spacing k-clustering. <br>
-* Run the clustering algorithm, but on a MUCH bigger graph. <br>
+(1)Implement the clustering algorithm for computing a max-spacing k-clustering. <br>
+(2)Run the clustering algorithm, but on a MUCH bigger graph. <br><br>
