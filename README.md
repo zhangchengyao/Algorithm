@@ -38,3 +38,5 @@ Intended to study Algorithm Specialization on Coursera.
 ## Dynamic Programming <br>
 *Assignment3* <br><br>
 (2) Implement the dynamic programming algorithm for computing a maximum-weight independent set of a path graph. <br><br>
+*Assignment4* <br><br>
+(1) Implement the knapsack algorithm. <br><br>
