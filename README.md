@@ -40,3 +40,4 @@ Intended to study Algorithm Specialization on Coursera.
 (2) Implement the dynamic programming algorithm for computing a maximum-weight independent set of a path graph. <br><br>
 *Assignment4* <br><br>
 (1) Implement the knapsack algorithm. <br><br>
+(2) Implement the knapsack algorithm on a much bigger set that the straightforward iterative implemetation uses an infeasible amount of time and space. <br><br>
